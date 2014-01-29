@@ -1,0 +1,81 @@
+/* YWeather CSS */
+
+.yweather {
+	padding: 0px;
+	width: 260px;
+	box-sizing: content-box;
+}
+.yweather * {
+	box-sizing: content-box;
+}
+.yweather .location h1 {
+	margin: 0;
+	font-size: 22px;
+	color: #323232;
+}
+.yweather .location span {
+	display: block;
+	margin: 5px 0 0 0;
+	font-size: 12px;
+	color: #928b8a;
+}
+.yweather .current {
+	overflow: auto;
+}
+.yweather .current img {
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+.yweather .current .temp {
+	float: left;
+	margin: 2px 0 0 10px;
+	font-size: 60px;
+	font-weight: bold;
+	color: #006fbb;
+}
+.yweather .current .conditions {
+	clear: both;
+	font-size: 14px;
+	color: #8e8786;
+}
+.yweather .current .conditions span {
+	color: #323232;
+}
+.yweather .forecast {
+	width: 260px;
+	margin: 15px 0 0 0;
+	padding: 15px 0 0 0;
+	border-top: 1px solid #dbd9d8;
+	overflow: hidden;
+}
+.yweather .forecast li {
+	float: left;
+	margin: 0 0 0 15px;
+	width: 40px;
+	list-style-type: none;
+	text-align: center;
+}
+.yweather .forecast li:first-child {
+	margin: 0;
+}
+.yweather .forecast li .day {
+	display: block;
+	margin: 0 0 5px 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #f10055;
+}
+.yweather .forecast li img {
+	width: 40px;
+	height: 40px;
+}
+.yweather .forecast li .high {
+	display: block;
+	margin: 5px 0 0 0;
+}
+.yweather .forecast li .low {
+	display: block;
+	margin: 5px 0 0 0;
+	color: #8e8786;
+}
