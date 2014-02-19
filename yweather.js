@@ -18,7 +18,7 @@
                     $e.html(opts.loading_message);
                 },
                 success: function(data){
-                    console.log(data);
+                    //console.log(data);
                     var result = data.query.results.channel;
                     if(result.title == 'Yahoo! Weather - Error'){
                         $e.html(result.item.title);
